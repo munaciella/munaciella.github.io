@@ -1,0 +1,16 @@
+{
+    "name": "Francesco.dev",
+    "short_name": "Francesco.dev",
+    "description": "A portfolio website to showcase my work and skills",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#fc055b",
+    "icons": [
+      {
+        "src": "/logo.png",
+        "sizes": "64x64 128x128 192x192 256x256 512x512",
+        "type": "image/png"
+      }
+    ]
+  }
