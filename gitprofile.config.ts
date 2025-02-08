@@ -3,9 +3,9 @@ const CONFIG = {
     username: 'munaciella', // Your GitHub org/user name. (This is the only required config)
   },
   /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
+   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/munaciella/munaciella.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
+   * for example your repository is at https://github.com/munaciella/portfolio, then set base to '/portfolio/'.
    */
   base: '/',
   projects: {
@@ -29,18 +29,58 @@ const CONFIG = {
         {
           title: 'Clarity Notes Capturer',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'A notes capturing and collaboration platform, enabling seamless note-taking, real-time collaboration, and powerful backend functionalities. Built with Next.js, JavaScript, and TailwindCSS, using Firebase, Cloudflare and Liveblocks for backend services.',
+          imageUrl: './C.png',
+          link: 'https://clarity-capture.com',
         },
         {
-          title: 'Project Name',
+          title: 'Events Booking Platform',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'A web application for managing events, including user registration, event creation and payment processing. Built with React, JS and TailwindCSS, using Supabase for backend services.',
+          imageUrl: './Eventsphere.png',
+          link: 'https://event-sphere-web.netlify.app/',
+        },
+        {
+          title: 'Clarity Notes Capturer',
+          description:
+            'A notes capturing and collaboration platform, enabling seamless note-taking, real-time collaboration, and powerful backend functionalities. Built with Next.js, JavaScript, and TailwindCSS, using Firebase, Cloudflare and Liveblocks for backend services.',
+          imageUrl: './C.png',
+          link: 'https://clarity-capture.com',
+        },
+        {
+          title: 'Clarity Notes Capturer',
+          description:
+            'A notes capturing and collaboration platform, enabling seamless note-taking, real-time collaboration, and powerful backend functionalities. Built with Next.js, JavaScript, and TailwindCSS, using Firebase, Cloudflare and Liveblocks for backend services.',
+          imageUrl: './C.png',
+          link: 'https://clarity-capture.com',
+        },
+        {
+          title: 'Clarity Notes Capturer',
+          description:
+            'A notes capturing and collaboration platform, enabling seamless note-taking, real-time collaboration, and powerful backend functionalities. Built with Next.js, JavaScript, and TailwindCSS, using Firebase, Cloudflare and Liveblocks for backend services.',
+          imageUrl: './C.png',
+          link: 'https://clarity-capture.com',
+        },
+        {
+          title: 'Clarity Notes Capturer',
+          description:
+            'A notes capturing and collaboration platform, enabling seamless note-taking, real-time collaboration, and powerful backend functionalities. Built with Next.js, JavaScript, and TailwindCSS, using Firebase, Cloudflare and Liveblocks for backend services.',
+          imageUrl: './C.png',
+          link: 'https://clarity-capture.com',
+        },
+        {
+          title: 'Clarity Notes Capturer',
+          description:
+            'A notes capturing and collaboration platform, enabling seamless note-taking, real-time collaboration, and powerful backend functionalities. Built with Next.js, JavaScript, and TailwindCSS, using Firebase, Cloudflare and Liveblocks for backend services.',
+          imageUrl: './C.png',
+          link: 'https://clarity-capture.com',
+        },
+        {
+          title: 'Clarity Notes Capturer',
+          description:
+            'A notes capturing and collaboration platform, enabling seamless note-taking, real-time collaboration, and powerful backend functionalities. Built with Next.js, JavaScript, and TailwindCSS, using Firebase, Cloudflare and Liveblocks for backend services.',
+          imageUrl: './C.png',
+          link: 'https://clarity-capture.com',
         },
       ],
     },
@@ -52,7 +92,8 @@ const CONFIG = {
   },
   social: {
     linkedin: 'francesco-vurchio',
-    website: 'https://francescovurchio-dev.netlify.app/',
+    website: 'https://francesco-dev.vercel.app/',
+    website3D: 'https://francescovurchio-dev.netlify.app/',
     email: 'francesco.vurchio82@gmail.com',
   },
   resume: {
@@ -60,20 +101,26 @@ const CONFIG = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'TypeScript',
     'JavaScript',
+    'HTML',
+    'CSS',
+    'TailwindCSS',
     'React.js',
+    'Next.js',
+    'React Native',
     'Node.js',
+    'Express.js',
     'Nest.js',
-    'MySQL',
+    'SQL',
     'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'MongoDB',
+    'AWS',
+    'Cloudflare',
+    'Vercel',
+    'Supabase',
+    'Firebase',
   ],
   experiences: [
     {
@@ -186,9 +233,9 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/munaciella"
       target="_blank"
-      rel="noreferrer"
+      rel="noopener noreferrer"
     >GitProfile</a> and ❤️`,
 
   enablePWA: true,

@@ -332,7 +332,6 @@ const CONFIG = {
       'garden',
       'forest',
       'aqua',
-      'lofi',
       'pastel',
       'fantasy',
       'wireframe',
@@ -367,9 +366,9 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/munaciella"
       target="_blank"
-      rel="noreferrer"
+      rel="noopener noreferrer"
     >GitProfile</a> and ❤️`,
 
   enablePWA: true,

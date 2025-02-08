@@ -336,6 +336,20 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   }
                 />
               )}
+              {social?.website3D && (
+                <ListItem
+                  icon={<FaGlobe />}
+                  title="3D Website:"
+                  value={social.website3D
+                    .replace('https://', '')
+                    .replace('http://', '')}
+                  link={
+                    !social.website3D.startsWith('http')
+                      ? `http://${social.website3D}`
+                      : social.website3D
+                  }
+                />
+              )}
               {social?.skype && (
                 <ListItem
                   icon={<FaSkype />}

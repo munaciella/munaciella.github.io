@@ -188,6 +188,11 @@ interface Social {
   website?: string;
 
   /**
+   * Website
+   */
+  website3D?: string;
+
+  /**
    * Skype username
    */
   skype?: string;

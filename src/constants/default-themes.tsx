@@ -13,7 +13,7 @@ export const DEFAULT_THEMES = [
   'garden',
   'forest',
   'aqua',
-  'lofi',
+  //'lofi',
   'pastel',
   'fantasy',
   'wireframe',
