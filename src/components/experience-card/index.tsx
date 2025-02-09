@@ -6,12 +6,12 @@ const ListItem = ({
   time,
   position,
   company,
-  companyLink,
+  jobDescription,
 }: {
   time: React.ReactNode;
   position?: React.ReactNode;
   company?: React.ReactNode;
-  companyLink?: string;
+  jobDescription?: React.ReactNode;
 }) => (
   <li className="mb-5 ml-4">
     <div
@@ -20,11 +20,8 @@ const ListItem = ({
     ></div>
     <div className="my-0.5 text-xs">{time}</div>
     <h3 className="font-semibold">{position}</h3>
-    <div className="mb-4 font-normal">
-      <a href={companyLink} target="_blank" rel="noreferrer">
-        {company}
-      </a>
-    </div>
+    <div className="font-semibold">{company}</div>
+    <div className="font-sm">{jobDescription}</div>
   </li>
 );
 
@@ -81,11 +78,7 @@ const ExperienceCard = ({
                     time={`${experience.from} - ${experience.to}`}
                     position={experience.position}
                     company={experience.company}
-                    companyLink={
-                      experience.companyLink
-                        ? experience.companyLink
-                        : undefined
-                    }
+                    jobDescription={experience.jobDescription}
                   />
                 ))}
               </Fragment>

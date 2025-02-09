@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react';
 import { SanitizedCertification } from '../../interfaces/sanitized-config';
 import { skeleton } from '../../utils';
@@ -19,11 +20,7 @@ const ListItem = ({
       style={{ left: '-4.5px' }}
     ></div>
     <div className="my-0.5 text-xs">{year}</div>
-    <div className="font-medium">
-      <a href={link} target="_blank" rel="noreferrer">
-        {name}
-      </a>
-    </div>
+    <div className="font-medium">{name}</div>
     <h3 className="mb-4 font-normal">{body}</h3>
   </li>
 );

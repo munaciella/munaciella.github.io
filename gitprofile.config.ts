@@ -34,6 +34,13 @@ const CONFIG = {
           link: 'https://clarity-capture.com',
         },
         {
+          title: 'Networking Platform Web App',
+          description:
+            'A full-stack networking platform built with Next.js, where users can connect, interact, and engage through posts and comments. It leverages Firebase and Cloudflare for data storage, featuring authentication, real-time updates, and a clean, responsive UI.',
+          imageUrl: './linkedin.png',
+          link: 'https://networked.vercel.app',
+        },
+        {
           title: 'Events Booking Platform',
           description:
             'A web application for managing events, including user registration, event creation and payment processing. Built with React, JS and TailwindCSS, using Supabase for backend services.',
@@ -41,46 +48,39 @@ const CONFIG = {
           link: 'https://event-sphere-web.netlify.app/',
         },
         {
-          title: 'Clarity Notes Capturer',
+          title: 'Social Media Music App',
           description:
-            'A notes capturing and collaboration platform, enabling seamless note-taking, real-time collaboration, and powerful backend functionalities. Built with Next.js, JavaScript, and TailwindCSS, using Firebase, Cloudflare and Liveblocks for backend services.',
-          imageUrl: './C.png',
-          link: 'https://clarity-capture.com',
+            'A social media platform for music enthusiasts to explore, rate, and review songs and albums from around the world. The app utilises Spotify-API to interact with the backend to fetch the music information.',
+          imageUrl: './wax.png',
+          link: 'https://github.com/munaciella/gatefold-frontend',
         },
         {
-          title: 'Clarity Notes Capturer',
+          title: 'News Web App',
           description:
-            'A notes capturing and collaboration platform, enabling seamless note-taking, real-time collaboration, and powerful backend functionalities. Built with Next.js, JavaScript, and TailwindCSS, using Firebase, Cloudflare and Liveblocks for backend services.',
-          imageUrl: './C.png',
-          link: 'https://clarity-capture.com',
+            'A full-stack news web app for exploring, upvoting, downvoting, and managing articles and comments. Built with React, JS, and TailwindCSS on the frontend and integrated with a Node.js/Express backend.',
+          imageUrl: './munaciella-news.jpg',
+          link: 'https://munaciella.netlify.app/',
         },
         {
-          title: 'Clarity Notes Capturer',
+          title: 'Recipes Web App',
           description:
-            'A notes capturing and collaboration platform, enabling seamless note-taking, real-time collaboration, and powerful backend functionalities. Built with Next.js, JavaScript, and TailwindCSS, using Firebase, Cloudflare and Liveblocks for backend services.',
-          imageUrl: './C.png',
-          link: 'https://clarity-capture.com',
+            'A web app for viewing, share, comment and vote recipes, including user registration, recipe suggestion and management. Built with Nextjs, TS and TailwindCSS, using Supabase for backend services.',
+          imageUrl: './velovegans.jpg',
+          link: 'https://velovegans.co.uk',
         },
         {
-          title: 'Clarity Notes Capturer',
+          title: 'Data Analytics API',
           description:
-            'A notes capturing and collaboration platform, enabling seamless note-taking, real-time collaboration, and powerful backend functionalities. Built with Next.js, JavaScript, and TailwindCSS, using Firebase, Cloudflare and Liveblocks for backend services.',
-          imageUrl: './C.png',
-          link: 'https://clarity-capture.com',
+            'An API developed with TS, Nodejs and PSQL. The API includes database seeding, environment-specific configurations, and robust testing with Jest, demonstrating best practices in database management.',
+          imageUrl: './pairsniper.png',
+          link: 'https://github.com/munaciella/data-analytics-api',
         },
         {
-          title: 'Clarity Notes Capturer',
+          title: 'Documentation Web App',
           description:
-            'A notes capturing and collaboration platform, enabling seamless note-taking, real-time collaboration, and powerful backend functionalities. Built with Next.js, JavaScript, and TailwindCSS, using Firebase, Cloudflare and Liveblocks for backend services.',
-          imageUrl: './C.png',
-          link: 'https://clarity-capture.com',
-        },
-        {
-          title: 'Clarity Notes Capturer',
-          description:
-            'A notes capturing and collaboration platform, enabling seamless note-taking, real-time collaboration, and powerful backend functionalities. Built with Next.js, JavaScript, and TailwindCSS, using Firebase, Cloudflare and Liveblocks for backend services.',
-          imageUrl: './C.png',
-          link: 'https://clarity-capture.com',
+            'A resourceful web app for a comprehensive collection of notes, guides, and tools aimed at helping developers at the beginning of their journey, those returning to tech, or anyone needing a refresher.',
+          imageUrl: './devups.png',
+          link: 'https://devups-notes.vercel.app/',
         },
       ],
     },
@@ -124,40 +124,50 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Ultimate Hero',
+      position: 'Data Analytics Consultant (Cryptocurrency)',
+      from: 'September 2024',
+      to: 'December 2024',
+      jobDescription:
+        'Designed a scalable database schema for a cryptocurrency data analysis app. Developed database tables, seed scripts, and data migration from JavaScript to TypeScript. Implemented robust error handling, backend management, and integrated Jest for thorough testing.',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Tech Returners',
+      position: 'Software Engineer Project Consultant',
+      from: 'July 2024',
+      to: 'August 2024',
+      jobDescription:
+        'Designed and built a custom web app for the Launchpad project. Integrated OAuth authentication (Google, Supabase) for enhanced security and user experience. Developed backend solutions with Supabase and improved frontend UI/UX with React.',
+    },
+    {
+      company: 'Northcoders',
+      position: 'Trainee Full Stack Developer',
+      from: 'October 2023',
+      to: 'January 2024',
+      jobDescription:
+        'Completed an intensive bootcamp on full-stack web development. Gained proficiency in test-driven development, Node.js, APIs, databases, and SQL. Built complex web applications using React and modern front-end technologies.',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Northcoders',
+      body: 'Software Engineering Bootcamp',
+      year: 'January 2024',
+      link: '',
+    },
+    {
+      name: 'Codecademy',
+      body: 'Learn Advanced JavaScript',
+      year: 'May 2024',
+      link: '',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'The Open University',
+      degree: 'BSc Hons in Sport Studies',
       from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      to: '2021',
     },
   ],
   googleAnalytics: {

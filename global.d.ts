@@ -225,7 +225,7 @@ interface Experience {
   position?: string;
   from: string;
   to: string;
-  companyLink?: string;
+  jobDescription?: string;
 }
 
 interface Certification {
