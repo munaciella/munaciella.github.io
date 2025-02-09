@@ -36,7 +36,7 @@ This project is a personal portfolio designed to dynamically display your GitHub
 
 ## Video Demo
 
-Video Demo coming soon!
+[![Demo Video](https://via.placeholder.com/600x400?text=Demo+Video+Placeholder)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ---
 
