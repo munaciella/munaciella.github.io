@@ -125,8 +125,8 @@ Configuration
 ## Contributing
 
 Contributions are welcome! If you’d like to contribute, please fork the repository, create a new branch, and submit a pull request with your changes.
-	1.	Fork the repository
-	2.	Create your feature branch (git checkout -b feature-branch)
-	3.	Commit your changes (git commit -am 'Add new feature')
-	4.	Push to the branch (git push origin feature-branch)
-	5.	Create a new Pull Request
+1.	Fork the repository
+2.	Create your feature branch (git checkout -b feature-branch)
+3.	Commit your changes (git commit -am 'Add new feature')
+4.	Push to the branch (git push origin feature-branch)
+5.	Create a new Pull Request
