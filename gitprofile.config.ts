@@ -30,56 +30,56 @@ const CONFIG = {
           title: 'Clarity Notes Capturer',
           description:
             'A notes capturing and collaboration platform, enabling seamless note-taking, real-time collaboration, and powerful backend functionalities. Built with Next.js, JavaScript, and TailwindCSS, using Firebase, Cloudflare and Liveblocks for backend services.',
-          imageUrl: './C.png',
+          imageUrl: '/C.png',
           link: 'https://clarity-capture.com',
         },
         {
           title: 'Networking Platform Web App',
           description:
             'A full-stack networking platform built with Next.js, where users can connect, interact, and engage through posts and comments. It leverages Firebase and Cloudflare for data storage, featuring authentication, real-time updates, and a clean, responsive UI.',
-          imageUrl: './linkedin.png',
+          imageUrl: '/linkedin.png',
           link: 'https://networked.vercel.app',
         },
         {
           title: 'Events Booking Platform',
           description:
             'A web application for managing events, including user registration, event creation and payment processing. Built with React, JS and TailwindCSS, using Supabase for backend services.',
-          imageUrl: './Eventsphere.png',
+          imageUrl: '/Eventsphere.png',
           link: 'https://event-sphere-web.netlify.app/',
         },
         {
           title: 'Social Media Music App',
           description:
             'A social media platform for music enthusiasts to explore, rate, and review songs and albums from around the world. The app utilises Spotify-API to interact with the backend to fetch the music information.',
-          imageUrl: './wax.png',
+          imageUrl: '/wax.png',
           link: 'https://github.com/munaciella/gatefold-frontend',
         },
         {
           title: 'News Web App',
           description:
             'A full-stack news web app for exploring, upvoting, downvoting, and managing articles and comments. Built with React, JS, and TailwindCSS on the frontend and integrated with a Node.js/Express backend.',
-          imageUrl: './munaciella-news.jpg',
+          imageUrl: '/munaciella-news.jpg',
           link: 'https://munaciella.netlify.app/',
         },
         {
           title: 'Recipes Web App',
           description:
             'A web app for viewing, share, comment and vote recipes, including user registration, recipe suggestion and management. Built with Nextjs, TS and TailwindCSS, using Supabase for backend services.',
-          imageUrl: './velovegans.jpg',
+          imageUrl: '/velovegans.jpg',
           link: 'https://velovegans.co.uk',
         },
         {
           title: 'Data Analytics API',
           description:
             'An API developed with TS, Nodejs and PSQL. The API includes database seeding, environment-specific configurations, and robust testing with Jest, demonstrating best practices in database management.',
-          imageUrl: './pairsniper.png',
+          imageUrl: '/pairsniper.png',
           link: 'https://github.com/munaciella/data-analytics-api',
         },
         {
           title: 'Documentation Web App',
           description:
             'A resourceful web app for a comprehensive collection of notes, guides, and tools aimed at helping developers at the beginning of their journey, those returning to tech, or anyone needing a refresher.',
-          imageUrl: './devups.png',
+          imageUrl: '/devups.png',
           link: 'https://devups-notes.vercel.app/',
         },
       ],
