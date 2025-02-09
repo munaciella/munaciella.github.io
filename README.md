@@ -40,7 +40,7 @@ This project is a personal portfolio designed to dynamically display your GitHub
 
 <p align="center">
   <a href="https://munaciella.github.io/">
-    <img src="https://github.com/arifszn/gitprofile/assets/45073703/eb6c38a4-ac92-4006-869b-e4e24f6f5cf6" alt="Preview" width="60%"/>
+    <img src="public/Screen Recording 2025-02-09 at 14.38.32.mov" alt="Preview" width="60%"/>
   </a>
   <br/>
   <!-- <a href="#arifszn"><img src="https://github.com/arifszn/gitprofile/assets/45073703/4d2ccd45-e566-4743-bf61-cadc03ece54c" width="50%" alt="Shadow"/></a> -->
