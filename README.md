@@ -36,16 +36,9 @@ This project is a personal portfolio designed to dynamically display your GitHub
 
 ## Video Demo
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+[![Watch the video](https://img.youtube.com/vi/D24pDYNVN8I/0.jpg)](https://www.youtube.com/watch?v=D24pDYNVN8I)
 
-<p align="center">
-  <!-- <a href="https://munaciella.github.io/"> -->
-    <img src="https://youtu.be/D24pDYNVN8I" alt="Preview" width="60%"/>
-  <!-- </a> -->
-  <br/>
-    <!-- <a href="#munaciella"><img src="https://github.com/munaciella/github-profile-portfolio/blob/6bca5a2dbcd8d987650132784cbc49c6e8f2dd2e/public/Screen%20Recording%202025-02-09%20at%2014.38.32.mov" width="50%" alt="Shadow"/></a> -->
-
-</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D24pDYNVN8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
