@@ -37,7 +37,7 @@ This project is a personal portfolio designed to dynamically display your GitHub
 ## Video Demo
 
 <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D24pDYNVN8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img width="560" height="315" src="https://www.youtube.com/embed/D24pDYNVN8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></img>
 </p>
 ---
 
