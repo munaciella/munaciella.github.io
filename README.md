@@ -36,9 +36,12 @@ This project is a personal portfolio designed to dynamically display your GitHub
 
 ## Video Demo
 
-<!-- [![Watch the video](https://img.youtube.com/vi/D24pDYNVN8I/0.jpg)](https://www.youtube.com/watch?v=D24pDYNVN8I) -->
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D24pDYNVN8I" frameborder="0" allowfullscreen></iframe>
+<p align="center">
+  <video width="60%" controls>
+    <source src="https://raw.githubusercontent.com/munaciella/munaciella.github.io/main/public/GitHub-profile.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
 
 ---
 
