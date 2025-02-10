@@ -37,11 +37,8 @@ This project is a personal portfolio designed to dynamically display your GitHub
 ## Video Demo
 
 <p align="center">
-<a href="https://munaciella.github.io/">
-    <img src="https://github.com/munaciella/munaciella.github.io/releases/download/v1.0/GitHub-profile.mp4" alt="Watch Video" width="60%"/>
-  </a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D24pDYNVN8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
-
 ---
 
 ## Features
