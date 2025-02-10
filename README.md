@@ -36,16 +36,10 @@ This project is a personal portfolio designed to dynamically display your GitHub
 
 ## Video Demo
 
-<!-- <p align="center">
-<a href="https://munaciella.github.io/">
-    <img src="https://raw.githubusercontent.com/munaciella/munaciella.github.io/main/public/GitHub-profile.mp4" alt="Preview" width="60%"/>
-  </a>
-</p> -->
 <p align="center">
-  <video width="60%" controls>
-    <source src="https://github.com/munaciella/munaciella.github.io/releases/download/v1.0/GitHub-profile.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+<a href="https://munaciella.github.io/">
+    <img src="https://github.com/munaciella/munaciella.github.io/releases/download/v1.0/GitHub-profile.mp4" alt="Watch Video" width="60%"/>
+  </a>
 </p>
 
 ---
