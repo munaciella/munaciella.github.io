@@ -1,6 +1,6 @@
 const CONFIG = {
   github: {
-    username: 'munaciella', // Your GitHub org/user name. (This is the only required config)
+    username: 'munaciella',
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/munaciella/munaciella.github.io, set base to '/'.
@@ -24,45 +24,93 @@ const CONFIG = {
     },
     external: {
       header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Clarity Notes Capturer',
+          title: 'Paperly - AI Chat to Doc',
+          description:
+            'A fully functional SaaS application that allows users to upload documents and interact with them using AI-powered chat. It supports various document types, provides chat memory, manages user subscriptions, and includes robust file management capabilities.',
+          imageUrl: '/paperly.png',
+          link: 'https://paperly.dev/',
+        },
+        {
+          title: 'ApplyWise - AI-powered Resume Builder',
+          description:
+            'An AI-powered web app toolkit that helps users generate tailored resumes and cover letters, manage saved jobs, and track application statuses.',
+          imageUrl: '/applywise.png',
+          link: 'https://applywise-one.vercel.app/',
+        },
+        {
+          title: 'Filedrop - File Storage Platform',
+          description:
+            'A file storage web app that allows users to upload, store, and manage files securely. It features user authentication, file management, and a responsive design for seamless user experience.',
+          imageUrl: '/filedrop.png',
+          link: 'https://filedrop-nu.vercel.app/',
+        },
+        {
+          title: 'Streambuster - Movie Browser App',
+          description:
+            'A movie browser app that allows users to search for movies, view details, and manage their watchlist. It features a clean UI, responsive design, and integrates with a movie database API for real-time data.',
+          imageUrl: '/streambuster.png',
+          link: 'https://streambuster.vercel.app/',
+        },
+        {
+          title: 'Flowly - AI-powered Task Manager',
+          description:
+            'A task management web app that helps users organize their tasks efficiently. It features AI-powered task suggestions, user authentication, and a clean, responsive design.',
+          imageUrl: '/flowly.png',
+          link: 'https://flowly-chi.vercel.app/',
+        },
+        {
+          title: 'The Meteo - Weather App',
+          description:
+            'A weather web app that provides real-time weather information, forecasts, and location-based services. It features a user-friendly interface, responsive design, and integrates with a weather API for accurate data.',
+          imageUrl: '/meteo.png',
+          link: 'https://the-meteo.vercel.app/',
+        },
+        {
+          title: 'QuillNote - Notes Capturing Platform',
+          description:
+            'An AI-powered note-taking web app that helps users capture and organize their notes efficiently. It features user authentication, real-time collaboration, and a clean, responsive design.',
+          imageUrl: '/quillnote.png',
+          link: 'https://quillnote.vercel.app/',
+        },
+        {
+          title: 'Clarity - Notes Capturer',
           description:
             'A notes capturing and collaboration platform, enabling seamless note-taking, real-time collaboration, and powerful backend functionalities. Built with Next.js, JavaScript, and TailwindCSS, using Firebase, Cloudflare and Liveblocks for backend services.',
           imageUrl: '/C.png',
           link: 'https://clarity-capture.com',
         },
         {
-          title: 'Networking Platform Web App',
+          title: 'NetworkEd - Networking Web App',
           description:
             'A full-stack networking platform built with Next.js, where users can connect, interact, and engage through posts and comments. It leverages Firebase and Cloudflare for data storage, featuring authentication, real-time updates, and a clean, responsive UI.',
           imageUrl: '/linkedin.png',
           link: 'https://networked.vercel.app',
         },
         {
-          title: 'Events Booking Platform',
+          title: 'EventSphere - Events Booking Platform',
           description:
             'A web application for managing events, including user registration, event creation and payment processing. Built with React, JS and TailwindCSS, using Supabase for backend services.',
           imageUrl: '/Eventsphere.png',
           link: 'https://event-sphere-web.netlify.app/',
         },
         {
-          title: 'Social Media Music App',
+          title: 'Wax - Social Media Music App',
           description:
             'A social media platform for music enthusiasts to explore, rate, and review songs and albums from around the world. The app utilises Spotify-API to interact with the backend to fetch the music information.',
           imageUrl: '/wax.png',
           link: 'https://github.com/munaciella/gatefold-frontend',
         },
         {
-          title: 'News Web App',
+          title: 'Munaciella - News Web App',
           description:
             'A full-stack news web app for exploring, upvoting, downvoting, and managing articles and comments. Built with React, JS, and TailwindCSS on the frontend and integrated with a Node.js/Express backend.',
           imageUrl: '/munaciella-news.jpg',
           link: 'https://munaciella.netlify.app/',
         },
         {
-          title: 'Recipes Web App',
+          title: 'VeloVegans - Recipes Web App',
           description:
             'A web app for viewing, share, comment and vote recipes, including user registration, recipe suggestion and management. Built with Nextjs, TS and TailwindCSS, using Supabase for backend services.',
           imageUrl: '/velovegans.jpg',
@@ -98,7 +146,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
   },
   skills: [
     'TypeScript',
