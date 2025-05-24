@@ -11,14 +11,15 @@
 A personal portfolio showcasing your GitHub profile with a custom-designed, dynamic interface, built with React, TypeScript, TailwindCSS, and DaisyUI. This project highlights your work, including your skills, experience, projects, and more. The website is designed to offer a sleek and responsive experience with a multiple choices of themes available mode toggle, perfect for professional use or showcasing your tech journey.
 
 ## Table of Contents
-1.	[About](#about)
-2.	[Live Demo](#live-demo)
-3.  [Video Demo](#video-demo)
-4.	[Features](#features)
-5.	[Installation](#installation)
-6.	[Usage](#usage)
-7.	[Technologies Used](#technologies-used)
-8.	[Contributing](#contributing)
+
+1. [About](#about)
+2. [Live Demo](#live-demo)
+3. [Video Demo](#video-demo)
+4. [Features](#features)
+5. [Installation](#installation)
+6. [Usage](#usage)
+7. [Technologies Used](#technologies-used)
+8. [Contributing](#contributing)
 
 ---
 
@@ -55,24 +56,26 @@ This project is a personal portfolio designed to dynamically display your GitHub
 ## Installation
 
 Prerequisites
+
 - Node.js (v16.8 or later)
 - npm (or yarn)
 
 Steps to Install
-1.	Clone the repository:
+
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/munaciella/github-profile-portfolio.git
 ```
 
-2.	Navigate into the project directory:
+2. Navigate into the project directory:
 
 ```bash
 cd github-profile-portfolio
 ```
 
-3.	Install dependencies:
-If you’re using npm:
+3. Install dependencies:
+   If you’re using npm:
 
 ```bash
 npm install
@@ -84,8 +87,8 @@ If you’re using yarn:
 yarn install
 ```
 
-4.	Start the development server:
-If you’re using npm:
+4. Start the development server:
+   If you’re using npm:
 
 ```bash
 npm run dev
@@ -97,7 +100,7 @@ If you’re using yarn:
 yarn dev
 ```
 
-5.	Open your browser and go to http://localhost:5173
+5. Open your browser and go to http://localhost:5173
 
 ---
 
@@ -106,27 +109,30 @@ yarn dev
 After running the project, you can modify your GitHub profile details, resume URL, and social media links directly in the configuration files. The app will automatically update with your details.
 
 Configuration
--	GitHub: Add your GitHub username to the configuration to dynamically display your repositories and related information.
--	Social Media: Update the social media links for platforms like LinkedIn and Twitter.
--	Resume: Provide the URL for your resume file in the configuration for users to download it.
+
+- GitHub: Add your GitHub username to the configuration to dynamically display your repositories and related information.
+- Social Media: Update the social media links for platforms like LinkedIn and Twitter.
+- Resume: Provide the URL for your resume file in the configuration for users to download it.
 
 ---
 
 ## Technologies Used
--	React: For building the UI components and managing state.
--	TypeScript: For adding type safety and improving developer experience.
--	TailwindCSS: For rapid styling with utility-first CSS.
--	Vite: For fast bundling and development experience.
--	DaisyUI: For pre-built components and themes.
--	GitHub API: For fetching GitHub profile and repository data.
+
+- React: For building the UI components and managing state.
+- TypeScript: For adding type safety and improving developer experience.
+- TailwindCSS: For rapid styling with utility-first CSS.
+- Vite: For fast bundling and development experience.
+- DaisyUI: For pre-built components and themes.
+- GitHub API: For fetching GitHub profile and repository data.
 
 ---
 
 ## Contributing
 
 Contributions are welcome! If you’d like to contribute, please fork the repository, create a new branch, and submit a pull request with your changes.
-1.	Fork the repository
-2.	Create your feature branch (git checkout -b feature-branch)
-3.	Commit your changes (git commit -am 'Add new feature')
-4.	Push to the branch (git push origin feature-branch)
-5.	Create a new Pull Request
+
+1. Fork the repository
+2. Create your feature branch (git checkout -b feature-branch)
+3. Commit your changes (git commit -am 'Add new feature')
+4. Push to the branch (git push origin feature-branch)
+5. Create a new Pull Request
